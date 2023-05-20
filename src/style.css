@@ -1,0 +1,52 @@
+:root {
+  --primary-color: rgb(50, 50, 168);
+  --secondary-color: rgb(52, 9, 9);
+}
+
+body {
+  margin: 60px auto;
+  max-width: 800px;
+  font-family: "Times New Roman", Times, serif;
+  background-image: linear-gradient(
+    45deg,
+    hsl(0deg 98% 82%) 0%,
+    hsl(15deg 100% 82%) 13%,
+    hsl(27deg 100% 82%) 25%,
+    hsl(39deg 100% 85%) 37%,
+    hsl(56deg 93% 89%) 50%,
+    hsl(39deg 99% 83%) 63%,
+    hsl(28deg 100% 79%) 75%,
+    hsl(16deg 100% 77%) 87%,
+    hsl(0deg 100% 77%) 100%
+  );
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 70px;
+  color: var(--primary-color);
+}
+
+p {
+  text-align: justify;
+  padding: 10px;
+  line-height: 1;
+  font-size: 18px;
+  color: var(--secondary-color);
+}
+
+a {
+  color: rgb(136, 38, 3);
+  text-decoration: none;
+}
+
+li {
+  text-align: justify;
+  color: var(--secondary-color);
+  font-size: 18px;
+}
+
+.email-link {
+  color: var(--primary-color);
+}
